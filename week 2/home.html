@@ -13,6 +13,11 @@
         <!-- link to another page in you website -->
         <a href="about.html">Go to About</a>
         <br>
+        <a href="list.html">Go to List</a>
+        <br>
+        <a href="table.html">Go to Table</a>
+
+        <br>
         <br>
         <center>
             <image  height="300px" width="300px"src="img/rapidhub.jpeg"></image>
@@ -35,14 +40,25 @@
         </pre>
 
         <!-- Tag, Element and Attribute -->
-        <h1 style='color:red;'>Explain <span style="color:green;">Tag,</span> <em>Element</em> and <b>Attribute</b> </h1>
-        <Ezekiel></Ezekiel>
+        <style>
+            .makered{
+                color:red;
+            }
+            .ontop{
+                margin-left:100px;
+            }
+            .bg{
+                background-color: seagreen;
+            }
+        </style>
+        <h1 id="heading" class="makered ontop bg">Sample Identification</h1>
+        <h1 class="makered" >Explain <span style="color:green;">Tag,</span> <em>Element</em> and <b>Attribute</b> </h1>
         <!-- empty tag -->
         <!-- <>     -->
         <!-- </> -->
         <p></p>
         <div> <b>Parent</b>
-            <div>First Child
+            <div class="makered">First Child
                 <div>Second Child
                     <div>Third Chird
                         <div> Forth Child
